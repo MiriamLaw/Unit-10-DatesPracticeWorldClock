@@ -42,9 +42,7 @@ public class WorldClockApplication {
 		// after we grabbed the time in our country, we need to format the output using
 		// our DateTimeFormatter...
 		System.out.println("Brisbane, Australia -> " + zonedDateTime1.format(DateTimeFormatter.ofPattern("yyyy-MM-dd hh:mm a")));
-		
 		System.out.println("Dublin, Ireland -> " + zonedDateTime2.format(DateTimeFormatter.ofPattern("yyyy-MM-dd hh:mm a")));
-		
 		System.out.println("Barcelona, Spain -> " + zonedDateTime3.format(DateTimeFormatter.ofPattern("yyyy-MM-dd hh:mm a")));
 
 		// we need to format it in a way that is easily readable, for this assignment,
